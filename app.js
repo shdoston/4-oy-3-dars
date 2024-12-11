@@ -5,6 +5,7 @@
 //  console.log(`yuza S ${s}`)
 //  console.log(`perimetir ${p}`)
 //  alert(`yuzasi ${s} perimetir ${p}` )
+
 // let d = prompt('aylanani diametrini D kiriting')
 // const pi = 3.14
 // let r = d / 2
@@ -68,6 +69,7 @@
 // let a9 = a**9
 // let a15 = a**15
 // alert(`ani kvadrati ${a3} oltinchi darajasi ${a6} to'qizinchi darajasi ${a9} o'nbeshinchi darajasi ${a15}`)
+
 // let son = 325
 // let birinchiSon = son % 10
 // let ikkinchiSon = ((son %100) - birinchiSon) / 10
@@ -102,12 +104,73 @@
 //     console.log('false')
 // }
 // Boolean5. Ikkita butun A va B sonlari berilgan. Jumlani rostlikka tekshiring: "A va B sonlarning hech bo'lmaganda bittasi toq son".
-let  a = 7
-let b = 6
-if (a % 2 !==0 || b % 2 ===0){
-    console.log('bitasi toq ')
-} else{
-    console.log('hammasi toq')
-}
+// let  a = 7
+// let b = 6
+// if (a % 2 !==0 || b % 2 ===0){
+//     console.log('bitasi toq ')
+// } else{
+//     console.log('hammasi toq')
+// }
+
+// Integer4. Uch xonali son berilgan. Uning o`nliklar xonasidagi raqam bilan yuzliklar xonasidagi raqamni almashtirishdan hosil bo`lgan sonni aniqlovchi programma tuzilsin. 
+// Input: 123
+// Output: 213
+// let son = +prompt('uch xonali soni kiriting')
+// let birinchisi = Math.floor(son /100)
+// let ikkinchisi = son % 10
+// let uchunchi = son %100
+// let s = Math.floor(uchunchi/10)
+// alert(`${s}${birinchisi }${ikkinchisi}`)
+
+// Integer7. Kun boshidan boshlab N sekund vaqt o'tti. Kun boshidan boshlab qancha minut to'la o`tganligini aniqlovchi programma tuzilsin.
+// let sukun = +prompt('sekundni kiriting')
+// let sek = `${sukun / 60 }`
+// alert(`kun boshidan ber  ${sek} sekund o'tdi`)
+
+// Integer8. Kun boshidan boshlab N sekund vaqt o'tti. Kun boshidan boshlab qancha to'la soat o`tganligini aniqlovchi programma tuzilsin.
+// let sukun = +prompt('sekundni kiriting')
+// let sek = `${sukun / 60 /60}`
+// alert(`kun boshidan ber  ${sek} saot o'tdi`)
+
+// Integer9. Kun boshidan boshlab N sekund vaqt o`tti. Kun boshidan boshlab qancha minut va sekund o'tganini aniqlovchi programma tuzilsin.
+// let sukun = +prompt('sekundni kiriting')
+// let sek = `${sukun / 60 }`
+// alert(` kun boshidan beri ${sek} imut o'tdi ${sukun} sekund o'tdi` )
+
+// Integer10. Kun boshidan boshlab N sekund vaqt o`tti. Kun boshidan boshlab qancha soat va sekund o'tganini aniqlovchi programma tuzilsin
+
+// let sukun = +prompt('sekundni kiriting')
+// let sek = `${sukun / 60 }`
+// let soat = Math.floor((sukun / 60)/60)
+// alert(`kun boshidan ber  ${sek} sekund o'tdi. Kun boshidan beri ${soat} soat o'tdi`)
+
+// Integer4. Uch xonali son berilgan. Uning o`nliklar xonasidagi raqam bilan yuzliklar xonasidagi raqamni almashtirishdan hosil bo`lgan sonni aniqlovchi programma tuzilsin. 
+// Input: 123
+// Output: 213
+
+
+
+// let son = +prompt('uch xonali soni kiriting')
+// let birinchisi = Math.floor(son /100)
+// let ikkinchisi = son % 10
+// let uchunchi = son %100
+// let s = Math.floor(uchunchi/10)
+// alert(`${s} ${birinchisi} ${ikkinchisi}`)
+
+
+// Integer5. Uch xonali son berilgan. Uning o`nliklar xonasidagi raqam bilan birliklar xonasidagi raqamni almashtirishdan hosil bo`lgan sonni aniqlovchi programma tuzilsin.
+// Input: 123
+// Output: 132
+
+let son = +prompt('uch xonali soni kiriting')
+let birinchisi = Math.floor(son /100)
+let ikkinchisi = son % 10
+let uchunchi = son %100
+let s = Math.floor(uchunchi/10)
+alert(` ${birinchisi} ${ikkinchisi} ${s}`)
+
+
+
+
 
 
